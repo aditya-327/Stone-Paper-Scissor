@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1{
+    background-color: #081b31;
+    color: white;
+    height: 4rem;
+    line-height: 4rem;
+}
+.choice{
+    height: 165px;
+    width: 165px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .choice:hover{
+    opacity: 0.6;
+    cursor: pointer;
+    background-color: #081b315e;
+} */
+
+#stone:hover{
+    opacity: 0.6;
+    cursor: pointer;
+    background-color: rgb(252, 100, 126);
+}
+#paper:hover{
+    opacity: 0.6;
+    cursor: pointer;
+    background-color: rgb(188, 78, 252);
+}
+#sicssor:hover{
+    opacity: 0.6;
+    cursor: pointer;
+    background-color: rgb(15, 159, 216);
+}
+
+img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.ch-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+    margin-top: 8rem;
+}
+
+.score-board{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    font-size: 1.5rem;
+    margin-top: 3rem;
+}
+#user,
+#comp{
+    font-size: 2rem;
+}
+
+.msg-container{
+    margin-top: 1.5rem;
+}
+
+#msg{
+    font-size: 1.5rem;
+    background-color: #081b31;
+    color: white;
+    display: inline;
+    padding: 0.8rem;
+    border-radius: 10px;
+}
+
